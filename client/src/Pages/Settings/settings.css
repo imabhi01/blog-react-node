@@ -1,0 +1,80 @@
+.settings{
+    display: flex;
+}
+
+.settings-wrapper{
+    flex: 9;
+    padding: 20px;
+    margin: 20px;
+}
+
+.settingsTitle{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.settingsTitleUpdate{
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+    cursor: pointer;
+    color: teal;
+}
+
+.settingsTitleDelete{
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    cursor: pointer;
+    color: tomato;
+}
+
+.settings-form{
+    display: flex;
+    flex-direction: column;
+}
+
+.settings-profile{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 10px 0;
+}
+
+.settings-profile > img{
+    width: 100px;
+    height: 100px;
+    border-radius: 20px;
+    object-fit: cover;
+}
+
+.settings-user-profile{
+    font-size: 40px;
+    color: grey;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor:pointer;
+}
+
+.settings-form > input{
+    height: 30px;
+    border: none;
+    border-bottom: 1px solid lightgray;
+    color: gray;
+    margin: 10px 0;
+    cursor: pointer;
+}
+
+.settings-submit{
+    padding: 15px;
+    border:none;
+    width: 150px;
+    align-self: center;
+    background-color: teal;
+    border-radius: 20px;
+    cursor: pointer;
+}

@@ -1,0 +1,67 @@
+.write-wrapper{
+    padding-top: 50px;
+    margin: 20px;
+}
+
+.write-img{
+    margin-left: 10%;
+    width: 74vw;
+    height: 250px;
+    object-fit: cover;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+.write-form{
+    position: relative;
+}
+
+.write-form-group{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.write-icon {
+    width: 25px;
+    height: 25px;
+    border: 1px solid;
+    display: flex;
+    border-radius: 50px;
+    align-items: center;
+    justify-content: center;
+    margin-left: 15px;
+    color: grey;
+    cursor: pointer;
+}
+
+.writeInput{
+    font-size: 30px;
+    width: 74vw;
+    border: none;
+    padding: 20px;
+}
+
+.writeInput:focus{
+    outline: none;
+}
+
+.writeText{
+    font-size: 16px;
+    height: 100vh;
+}
+
+.write-submit{
+    position: absolute;
+    top: 20px;
+    right: 50px;
+    color: white;
+    background-color: teal;
+    padding: 10px;
+    border: none;
+    border-radius: 10px;
+    font-size: 16px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+}
