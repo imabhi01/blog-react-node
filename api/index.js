@@ -18,6 +18,7 @@ mongoose.connect(process.env.MONGO_URL).then((res) => {
 );
 
 app.use(express.json()); //To get request body json parameters 
+
 app.use("/images", express.static(path.join(__dirname, '/images')))
 
 app.use('/api/auth', authRoutes);
